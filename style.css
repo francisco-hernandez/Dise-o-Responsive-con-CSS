@@ -1,0 +1,40 @@
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+main {
+  overflow-y: auto;
+}
+ul {
+  list-style: none;
+}
+li {
+  color: #fff;
+}
+aside {
+  border-right:  1px solid #ededed;
+  background: #ffb0a3;
+  flex: 1 0 10%;
+  padding: 1rem;
+}
+.principal {
+  display: flex;
+  height: 100%;
+  background-color: #908279;
+  color:#3f0d03
+}
+@media (max-width: 640px) {
+  .principal {
+    flex-direction: column-reverse;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+}
+.contenido_principal {
+  width: 90%;
+  margin: 0px auto;
+}
